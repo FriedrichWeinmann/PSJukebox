@@ -1,4 +1,4 @@
-Register-PSFTeppScriptblock -Name "PSJukebox.Tunes.Category" -ScriptBlock {
+﻿Register-PSFTeppScriptblock -Name "PSJukebox.Tunes.Category" -ScriptBlock {
 	[PSJukebox.Tunes.TunesHost]::Categories.Keys
 }
 Register-PSFTeppScriptblock -Name "PSJukebox.Tunes.Name" -ScriptBlock {

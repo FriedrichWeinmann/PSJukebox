@@ -11,10 +11,12 @@
 		The name to filter by.
 	
 	.PARAMETER Category
-		The category to filter by
+		The category to filter by.
 	
 	.EXAMPLE
 		PS C:\> Get-PSJTune
+	
+		Lists all tunes.
 #>
 	[CmdletBinding()]
 	Param (

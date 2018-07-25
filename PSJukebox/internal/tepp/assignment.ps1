@@ -1,4 +1,4 @@
-Register-PSFTeppArgumentCompleter -Command Register-PSJTune -Parameter Category -Name "PSJukebox.Tunes.Category"
+﻿Register-PSFTeppArgumentCompleter -Command Register-PSJTune -Parameter Category -Name "PSJukebox.Tunes.Category"
 Register-PSFTeppArgumentCompleter -Command Get-PSJTuneCategory -Parameter Name -Name "PSJukebox.Tunes.Category"
 Register-PSFTeppArgumentCompleter -Command Get-PSJTune -Parameter Category -Name "PSJukebox.Tunes.Category"
 Register-PSFTeppArgumentCompleter -Command Invoke-PSJTune -Parameter Category -Name "PSJukebox.Tunes.Category"

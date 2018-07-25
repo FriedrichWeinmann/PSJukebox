@@ -1,4 +1,4 @@
-New-PSFLicense -Product 'PSJukebox' -Manufacturer 'Friedrich Weinmann' -ProductVersion $PSModuleVersion -ProductType Module -Name MIT -Version "1.0.0.0" -Date (Get-Date "2018-07-25") -Text @"
+﻿New-PSFLicense -Product 'PSJukebox' -Manufacturer 'Friedrich Weinmann' -ProductVersion $ModuleVersion -ProductType Module -Name MIT -Version "1.0.0.0" -Date (Get-Date "2018-07-25") -Text @"
 Copyright (c) 2018 Friedrich Weinmann
 
 Permission is hereby granted, free of charge, to any person obtaining a copy

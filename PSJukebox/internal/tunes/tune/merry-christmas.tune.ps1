@@ -1,4 +1,4 @@
-Register-PSJTune -Name merry-christmas -Category tune -Description "It's this time of the year again" -Scriptblock {
+﻿Register-PSJTune -Name merry-christmas -Category tune -Description "It's this time of the year again" -Scriptblock {
 	Invoke-PSJBeep 200 444
 	Invoke-PSJBeep 265 444
 	Invoke-PSJBeep 265 222

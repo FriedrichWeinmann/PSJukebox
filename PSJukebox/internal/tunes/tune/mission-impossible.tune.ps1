@@ -1,4 +1,4 @@
-Register-PSJTune -Name mission-impossible -Category tune -Description 'Intro to the main theme of the Mission Impossible movie' -Scriptblock {
+﻿Register-PSJTune -Name mission-impossible -Category tune -Description 'Intro to the main theme of the Mission Impossible movie' -Scriptblock {
 	Invoke-PSJBeep 784 150
 	Invoke-PSJBeep 0 300
 	Invoke-PSJBeep 784 150

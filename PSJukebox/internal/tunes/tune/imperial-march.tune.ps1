@@ -1,4 +1,4 @@
-Register-PSJTune -Name imperial-march -Category tune -Description 'One of the most legendary music pieces of movie history' -Scriptblock {
+﻿Register-PSJTune -Name imperial-march -Category tune -Description 'One of the most legendary music pieces of movie history' -Scriptblock {
 	Invoke-PSJBeep 440 500
 	Invoke-PSJBeep 440 500
 	Invoke-PSJBeep 440 500

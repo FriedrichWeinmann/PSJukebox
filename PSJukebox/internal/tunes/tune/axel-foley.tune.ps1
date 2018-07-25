@@ -1,4 +1,4 @@
-Register-PSJTune -Name axel-foley -Category tune -Description 'He is a mean one' -Scriptblock {
+﻿Register-PSJTune -Name axel-foley -Category tune -Description 'He is a mean one' -Scriptblock {
 	Invoke-PSJBeep 659 460
 	Invoke-PSJBeep 784 340
 	Invoke-PSJBeep 659 230

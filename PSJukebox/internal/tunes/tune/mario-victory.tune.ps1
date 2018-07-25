@@ -1,4 +1,4 @@
-Register-PSJTune -Name mario-victory -Category tune -Description 'For all hat wearing, turtle kicking plumbers among us' -Scriptblock {
+﻿Register-PSJTune -Name mario-victory -Category tune -Description 'For all hat wearing, turtle kicking plumbers among us' -Scriptblock {
 	Invoke-PSJBeep 130 100
 	Invoke-PSJBeep 262 100
 	Invoke-PSJBeep 330 100

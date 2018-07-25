@@ -1,4 +1,4 @@
-Register-PSJTune -Name beethoven-elise -Category tune -Description 'Sometimes, the classics last longer than any modern piece of art' -Scriptblock {
+﻿Register-PSJTune -Name beethoven-elise -Category tune -Description 'Sometimes, the classics last longer than any modern piece of art' -Scriptblock {
 	Invoke-PSJBeep 659 120
 	Invoke-PSJBeep 0 100
 	Invoke-PSJBeep 622 120
