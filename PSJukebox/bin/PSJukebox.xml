@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PSJukebox</name>
+    </assembly>
+    <members>
+        <member name="T:PSJukebox.Tunes.Category">
+            <summary>
+            The categories of tunes available
+            </summary>
+        </member>
+        <member name="F:PSJukebox.Tunes.Category.Name">
+            <summary>
+            The name of the category
+            </summary>
+        </member>
+        <member name="F:PSJukebox.Tunes.Category.Description">
+            <summary>
+            What the category represents
+            </summary>
+        </member>
+        <member name="M:PSJukebox.Tunes.Category.ToString">
+            <summary>
+            The string representation of the object.
+            </summary>
+            <returns>The string representation of the object.</returns>
+        </member>
+        <member name="T:PSJukebox.Tunes.Tune">
+            <summary>
+            The tune to play
+            </summary>
+        </member>
+        <member name="F:PSJukebox.Tunes.Tune.Name">
+            <summary>
+            The name of the tune
+            </summary>
+        </member>
+        <member name="F:PSJukebox.Tunes.Tune.Description">
+            <summary>
+            A description of what the tune is for
+            </summary>
+        </member>
+        <member name="F:PSJukebox.Tunes.Tune.Link">
+            <summary>
+            Link to an online resource
+            </summary>
+        </member>
+        <member name="F:PSJukebox.Tunes.Tune.Code">
+            <summary>
+            The actual code running the tune
+            </summary>
+        </member>
+        <member name="F:PSJukebox.Tunes.Tune.Category">
+            <summary>
+            The category the tune is part of
+            </summary>
+        </member>
+        <member name="M:PSJukebox.Tunes.Tune.ToString">
+            <summary>
+            The string representation of the object.
+            </summary>
+            <returns>The string representation of the object.</returns>
+        </member>
+        <member name="T:PSJukebox.Tunes.TunesHost">
+            <summary>
+            Host class providing infrastructure for the tunes commands
+            </summary>
+        </member>
+        <member name="F:PSJukebox.Tunes.TunesHost.Categories">
+            <summary>
+            The master list of available catorgries
+            </summary>
+        </member>
+        <member name="F:PSJukebox.Tunes.TunesHost.Tunes">
+            <summary>
+            List of stored tunes
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -1,20 +1,31 @@
-function þnameþ
+﻿function Get-PSJTune
 {
+<#
+	.SYNOPSIS
+		Returns the list of tunes registered.
+	
+	.DESCRIPTION
+		Returns the list of tunes registered.
+	
+	.PARAMETER Name
+		The name to filter by.
+	
+	.PARAMETER Category
+		The category to filter by
+	
+	.EXAMPLE
+		PS C:\> Get-PSJTune
+#>
 	[CmdletBinding()]
 	Param (
-	
-	)
-	
-	begin
-	{
+		[string]
+		$Name = "*",
 		
-	}
+		[string]
+		$Category = "*"
+	)
 	process
 	{
-	
-	}
-	end
-	{
-	
+		[PSJukebox.Tunes.TunesHost]::Tunes.Values | Where-Object Category -Like $category | Where-Object Name -Like $Name
 	}
 }

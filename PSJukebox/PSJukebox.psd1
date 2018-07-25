@@ -12,7 +12,7 @@
 	Author = 'Friedrich Weinmann'
 	
 	# Company or vendor of this module
-	CompanyName = 'Awesome Inc.'
+	CompanyName = 'PowerShell Framework Collective'
 	
 	# Copyright statement for this module
 	Copyright = 'Copyright (c) 2018 Friedrich Weinmann'
@@ -41,11 +41,11 @@
 	# Modules that must be imported into the global environment prior to importing
 	# this module
 	RequiredModules = @(
-		@{ ModuleName='PSFramework'; ModuleVersion='0.9.10.23' }
+		@{ ModuleName='PSFramework'; ModuleVersion='0.9.23.82' }
 	)
 	
 	# Assemblies that must be loaded prior to importing this module
-	# RequiredAssemblies = @()
+	RequiredAssemblies = @('bin\PSJukebox.dll')
 	
 	# Script files (.ps1) that are run in the caller's environment prior to
 	# importing this module
@@ -55,14 +55,22 @@
 	# TypesToProcess = @('xml\PSJukebox.Types.ps1xml')
 	
 	# Format files (.ps1xml) to be loaded when importing this module
-	# FormatsToProcess = @('xml\PSJukebox.Format.ps1xml')
+	FormatsToProcess = @('xml\PSJukebox.Format.ps1xml')
 	
 	# Modules to import as nested modules of the module specified in
 	# ModuleToProcess
 	# NestedModules = @()
 	
 	# Functions to export from this module
-	FunctionsToExport = ''
+	FunctionsToExport = @(
+		'Get-PSJTune',
+		'Get-PSJTuneCategory',
+		'Invoke-PSJBeep',
+		'Invoke-PSJTune',
+		'Register-PSJTune',
+		'Set-PSJTuneCategory',
+		'Unregister-PSJTune'
+	)
 	
 	# Cmdlets to export from this module
 	CmdletsToExport = ''
@@ -71,7 +79,9 @@
 	VariablesToExport = ''
 	
 	# Aliases to export from this module
-	AliasesToExport = ''
+	AliasesToExport   = @(
+		'beep'
+	)
 	
 	# List of all modules packaged with this module
 	ModuleList = @()

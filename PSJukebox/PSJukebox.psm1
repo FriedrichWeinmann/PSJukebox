@@ -1,4 +1,4 @@
-$script:ModuleRoot = $PSScriptRoot
+﻿$script:ModuleRoot = $PSScriptRoot
 $script:ModuleVersion = "1.0.0.0"
 
 function Import-ModuleFile
@@ -32,8 +32,13 @@ function Import-ModuleFile
 }
 
 # Detect whether at some level dotsourcing was enforced
+<#
+# Disabled due to bug in PSFramework
+
 $script:doDotSource = Get-PSFConfigValue -FullName PSJukebox.Import.DoDotSource -Fallback $false
 if ($PSJukebox_dotsourcemodule) { $script:doDotSource = $true }
+#>
+$script:doDotSource = $true
 
 # Execute Preimport actions
 . Import-ModuleFile -Path "$ModuleRoot\internal\scripts\preimport.ps1"

@@ -5,7 +5,15 @@ SHORT DESCRIPTION
 	Explains how to use the PSJukebox powershell module
 	
 LONG DESCRIPTION
-	<Insert Content here>
+	The PSJUkebox module is a module designed to play music in PowerShell.
+	
+	Specifically, it can be used to deploy and invoke famous jingles or sound signals.
+	Ever wanted to play some ominous sound when a script finished?
+	Just run:
+	
+	  Invoke-PSJTune -Name 'Imperial-March'
+	
+	Explore the available tunes by running Get-PSJTune.
 
 KEYWORDS
 	PSJukebox
