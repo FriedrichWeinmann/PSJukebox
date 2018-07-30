@@ -3,7 +3,7 @@
 	RootModule = 'PSJukebox.psm1'
 	
 	# Version number of this module.
-	ModuleVersion = '1.0.0.0'
+	ModuleVersion = '1.0.1.0'
 	
 	# ID used to uniquely identify this module
 	GUID = '45938040-a0d4-4122-8eef-39c6d0700f61'
