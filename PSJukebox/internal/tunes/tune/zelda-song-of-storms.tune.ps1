@@ -1,0 +1,35 @@
+Register-PSJTune -Name 'Song of Storms' -Category tune -Description "Remember that stupid windmill?"  -Scriptblock {
+    Invoke-PSJBeep -Height 293.228 -Length 250
+    Invoke-PSJBeep -Height 349.228 -Length 250
+    Invoke-PSJBeep -Height 587.330 -Length 1000
+    Invoke-PSJBeep -Height 293.228 -Length 250
+    Invoke-PSJBeep -Height 349.228 -Length 250
+    Invoke-PSJBeep -Height 587.330 -Length 1000
+    Invoke-PSJBeep -Height 659.255 -Length 750
+    Invoke-PSJBeep -Height 698.456 -Length 250
+    Invoke-PSJBeep -Height 659.255 -Length 250
+    Invoke-PSJBeep -Height 698.456 -Length 250
+    Invoke-PSJBeep -Height 659.255 -Length 250
+    Invoke-PSJBeep -Height 523.251 -Length 250
+    Invoke-PSJBeep -Height 440 -Length 1000
+    Invoke-PSJBeep -Height 293.228 -Length 250
+    Invoke-PSJBeep -Height 349.228 -Length 250
+    Invoke-PSJBeep -Height 587.330 -Length 1000
+    Invoke-PSJBeep -Height 293.228 -Length 250
+    Invoke-PSJBeep -Height 349.228 -Length 250
+    Invoke-PSJBeep -Height 587.330 -Length 1000
+    Invoke-PSJBeep -Height 659.255 -Length 750
+    Invoke-PSJBeep -Height 698.456 -Length 250
+    Invoke-PSJBeep -Height 659.255 -Length 250
+    Invoke-PSJBeep -Height 698.456 -Length 250
+    Invoke-PSJBeep -Height 659.255 -Length 250
+    Invoke-PSJBeep -Height 523.251 -Length 250
+    Invoke-PSJBeep -Height 440 -Length 1000
+    Invoke-PSJBeep -Height 440 -Length 500
+    Invoke-PSJBeep -Height 293.665 -Length 500
+    Invoke-PSJBeep -Height 349.228 -Length 250
+    Invoke-PSJBeep -Height 391.995 -Length 250
+    Invoke-PSJBeep -Height 440 -Length 1000
+    Invoke-PSJBeep -Height 440 -Length 500
+    Invoke-PSJBeep -Height 293.665 -Length 1000
+}

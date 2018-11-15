@@ -1,0 +1,30 @@
+Register-PSJTune -Name 'Minuet of Forest' -Category tune -Description "Back in Kokiri Forest..."  -Scriptblock {
+    Invoke-PSJBeep -Height 587.330 -Length 250
+    Invoke-PSJBeep -Height 1174.66 -Length 250
+    Invoke-PSJBeep -Height 987.767 -Length 1000
+    Invoke-PSJBeep -Height 880 -Length 250
+    Invoke-PSJBeep -Height 987.767 -Length 250
+    Invoke-PSJBeep -Height 880 -Length 1000
+    Invoke-PSJBeep -Height 587.330 -Length 250
+    Invoke-PSJBeep -Height 1174.66 -Length 250
+    Invoke-PSJBeep -Height 987.767 -Length 1000
+    Invoke-PSJBeep -Height 880 -Length 250
+    Invoke-PSJBeep -Height 987.767 -Length 250
+    Invoke-PSJBeep -Height 880 -Length 1000
+    Invoke-PSJBeep -Height 659.255 -Length 250
+    Invoke-PSJBeep -Height 880 -Length 250
+    Invoke-PSJBeep -Height 783.991 -Length 500
+    Invoke-PSJBeep -Height 880 -Length 500
+    Invoke-PSJBeep -Height 783.991 -Length 166
+    Invoke-PSJBeep -Height 880 -Length 166
+    Invoke-PSJBeep -Height 783.991 -Length 166
+    Invoke-PSJBeep -Height 739.989 -Length 1000
+    Invoke-PSJBeep -Height 659.255 -Length 500
+    Invoke-PSJBeep -Height 329.628 -Length 250
+    Invoke-PSJBeep -Height 415.305 -Length 250
+    Invoke-PSJBeep -Height 493.883 -Length 250
+    Invoke-PSJBeep -Height 659.255 -Length 250
+    Invoke-PSJBeep -Height 830.609 -Length 250
+    Invoke-PSJBeep -Height 987.767 -Length 250
+    Invoke-PSJBeep -Height 1318.51 -Length 1000
+}
